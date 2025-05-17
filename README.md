@@ -4,9 +4,9 @@ Hey there! Welcome to my project where I dive into recognizing handwritten digit
 
 ## What’s This About?
 This project is all about teaching a neural network to read handwritten digits (like 0-9) from the MNIST dataset. I’ve tried three approaches to make the network smarter:
-- **Differential Evolution (DE)**: A fancy evolutionary algorithm that tweaks the network’s weights.
-- **Differential Evolution + Genetic Algorithms (DE+GA)**: A hybrid that mixes DE with genetic algorithm magic.
-- **Backpropagation (BP)**: The classic way to train neural networks.
+- **Differential Evolution (DE)**
+- **Differential Evolution + Genetic Algorithms (DE+GA)**
+- **Backpropagation (BP)**
 
 Everything’s coded up in a Jupyter Notebook (`EA_Project.ipynb`) using Python, with a little help from NumPy, Matplotlib, and scikit-learn.
 
@@ -31,7 +31,7 @@ I’m using the **MNIST dataset**, which has 70,000 images of handwritten digits
 ## How to Run It
 1. Grab the repo by cloning it or downloading `EA_Project.ipynb`.
 2. Make sure you’ve got all the libraries installed (see above).
-3. Fire up Jupyter Notebook:
+3. Run Jupyter Notebook:
    ```bash
    jupyter notebook EA_Project.ipynb
    ```
@@ -51,13 +51,4 @@ I’m using the **MNIST dataset**, which has 70,000 images of handwritten digits
 The notebook spits out:
 - Accuracy scores for each training method.
 - Graphs showing how the network learns over time.
-- A side-by-side comparison of DE, DE+GA, and BP to see which one’s the champ.
-
-## License
-This project is under the MIT License, so feel free to use it, tweak it, or share it. Check the [LICENSE](LICENSE) file for the details.
-
-## Shoutouts
-- Big thanks to the MNIST dataset and scikit-learn for making data access a breeze.
-- Inspired by the awesome world of evolutionary algorithms and neural networks.
-
-Have fun exploring, and let me know if you have any questions or cool ideas to add!
+- A side-by-side comparison of DE, DE+GA, and BP to see which one is better.
