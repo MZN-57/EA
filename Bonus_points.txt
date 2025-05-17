@@ -1,4 +1,0 @@
-Each of the following points highlighted s bonus in the EA_Project notebook 
-
-1.Use of hybrid algorithms or SOTA techniques : we used Differential Evolution, Bonus(Differential Evolution + Genetic Algorithms), and Backpropagation.
-2.Exploring multiple representations/init methods.
